@@ -28,11 +28,11 @@
         <nav class="cyan darken-2">
           <div class="container">
             <div class="nav-wrapper">
-              <a href="#!" class="brand-logo">ZA</a>
+              <a href="profile.php" class="brand-logo"><i class="large material-icons">person_pin</i></a>
               <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul class="right hide-on-med-and-down">
-                <li><a href="">Lihat Data</a></li>
-                <li><a href="registrasi.php">Tambah Data</a></li>
+              <li><a href="registrasi.php">Tambah Data</a></li>
+                <li><a href="login.php">Logout</a></li>
               </ul>
             </div>
           </div>
@@ -40,8 +40,8 @@
       </div>
           <!--SIDENAV-->
           <ul class="sidenav" id="mobile-nav">
-            <li><a href="">Lihat Data</a></li>
-            <li><a href="registrasi.php">Tambah Data</a></li>
+          <li><a href="registrasi.php">Tambah Data</a></li>
+          <li><a href="login.php">Logout</a></li>
           </ul>
       <div class="container center bg-info text-white">
         <h2>DAFTAR DATA COVID-19</H2>
